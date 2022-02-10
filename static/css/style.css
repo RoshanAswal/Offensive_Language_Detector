@@ -1,0 +1,52 @@
+body{
+    padding: 0%;
+    margin:0;
+    width: 100%;
+    background-image: url("./SM.jpg");
+    background-color: rgba(255, 255, 255, 0.7);
+    background-blend-mode:lighten;
+    font-family: Geneva, Tahoma, sans-serif;
+}
+.heading{
+    margin-top: 0%;
+}
+.top-div{
+    padding:1rem .5rem .5rem .5rem;
+    background-color:rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    font-size: larger;
+}
+.mid-div{
+    padding: 3rem 20rem 2rem 20rem;
+    position: relative;
+    text-align: center;
+    line-height: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:x-large;
+}
+.last-div{
+    text-align: center;
+}
+#text_box{
+    width: 15rem;
+    height: 2rem;
+    border: 2px solid;
+    transition: background-color 0.5s ease-out;
+    padding:0.2rem;
+}
+#check_text{
+    width: 5rem;
+    height: 2rem;
+    text-align: center;
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+    border-radius: .5rem;
+    color: white;
+    background-color: rgb(82, 224, 63);
+}
+#check_text:hover{
+    opacity: .8;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+}

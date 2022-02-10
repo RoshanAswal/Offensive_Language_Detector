@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offensive Language Detection</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="top-div">
+        <h1 class="heading">Offensive Language Detector</h1>
+    </div>
+    <div class="mid-div">
+        <p>
+            Social media has been influencing people since a decade now,
+            On one side it provides useful information but it can be toxic sometimes.
+            Some data on these sites can be Offensive or hate speech which might create a bad impact
+            in the society.
+            So,This is machine Learning model used to detect such comments on social media.
+        </p>
+    </div>
+    <br>
+    <div class="last-div">
+        <h4 style="color: darkred; text-decoration: underline;">Note - Model is 92% accurate</h4>
+		<form action="predict" method="post">
+			<input type="text"
+				name="text_box"
+				id="text_box"
+				placeholder="Type something.."
+                autocomplete="off"
+			>	
+			<br>
+			<br>
+			<input type="submit" id="check_text" value="predict">		
+		</form>
+        <h2>{{answer}}</h2>
+    </div>   
+</body>
+</html>
