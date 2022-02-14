@@ -5,8 +5,8 @@ import pickle
 
 app=Flask(__name__)
 
-model=pickle.load(open("model1.pkl",'rb'))
-cv=pickle.load(open("vec.pkl",'rb'))
+model=pickle.load(open("SVM_model.pkl",'rb'))
+cv=pickle.load(open("vec_model.pkl",'rb'))
 
 @app.route('/')
 def home():
