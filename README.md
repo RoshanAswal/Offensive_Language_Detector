@@ -1,5 +1,5 @@
 # Offensive_Language_Detector
-This is a WebApp with Machine Learning model to detect Offensive/Hate/negetive comments
+This is a WebApp with Machine Learning model to detect Offensive/Hate/negative comments
 
 ![Screenshot from 2022-08-27 13-08-53](https://user-images.githubusercontent.com/73030476/187020426-a88f85c6-32fc-48ac-a3df-38de98baf811.png)
 
